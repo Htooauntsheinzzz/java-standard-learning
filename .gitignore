@@ -1,0 +1,7 @@
+.metadata/
+xliicPersistentTagsState.json
+# Java
+*.class
+*.jar
+target/
+.DS_Store

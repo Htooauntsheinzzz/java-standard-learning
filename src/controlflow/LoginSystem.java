@@ -9,19 +9,19 @@ public class LoginSystem {
 		
 		String[][] users = {
 				
-				{		
-					"admin@rsu.ac.th","admin123"
+				{		//0				1
+					"admin@rsu.ac.th","admin123"//0
 				},
-				{
-					"phyokhantkyaw@rsu.ac.th","phyo123"
+				{		// 0					1
+					"phyokhantkyaw@rsu.ac.th","phyo123"//1
 				}, 
-				{
-					"shein@rsu.ac.th" ,"shein123"
+				{ //   0 				1
+					"shein@rsu.ac.th" ,"shein123"//2
 				}
 		};
 		
 		
-		boolean loginSuccess = false;
+		boolean loginSuccess = false; // starting point 
 		
 		do {
 			
@@ -37,7 +37,10 @@ public class LoginSystem {
 			while (row < users.length) {
 				
 				
-				if (username.equals(users[row][0]) && password.equals(users[row][1])) {
+				if (username.equals(users[row][0]) 
+						
+					&& password.equals(users[row][1])) {
+					
 					
 					loginSuccess = true;
 					

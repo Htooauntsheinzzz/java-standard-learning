@@ -22,6 +22,7 @@ public class Person {
 	public void getEat(String food) {
 		
 		System.out.println(name + " eat " + food);
+	
 	}
 	
 	public void getDrink(String drink) {
